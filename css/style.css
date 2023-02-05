@@ -1,0 +1,326 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap%27);
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+/* parti1 */
+.menu li {
+display: inline;
+}
+.menu li a{
+    text-decoration: none;
+   color: black;
+    margin: 30px;
+   
+}
+.imagio{
+    float: left;
+    margin-right: 50%;
+    padding-left: 10%;
+}
+.hello{
+    text-align: center;
+    color: #11CAB7;
+    font-size: 75px;
+    padding-top: 100px;
+}
+header{
+    height: 50px;
+    margin-top: 30px;
+}
+.soustitre{
+    text-align: center;
+    font-size: 10px;
+   padding-bottom: 10Px;
+}
+.partie1{
+    background-image: url(../images/img1.png);
+    background-size: cover;
+    height: 600px;
+}
+/* partie 2 */
+.box{
+    background-color: white;
+     width: calc(99%/3);
+     height: 340px;
+     display: inline-block;
+     text-align: center;
+
+ }
+ .section{
+     text-align: center;
+     margin: 30px;
+
+ }
+ .box h3{
+     margin-top: 50px;
+ }
+ .box i{
+     margin-top: 50px;
+     color:#10CAB7;
+     font-size: 60px;
+ }
+     .box p{
+        margin: 10px 20px 0px 20px;
+     }
+     section .box:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+     }
+     .service{
+        text-align: center;
+     }
+     .service h2{
+        font-size: 6.5em;
+        font-weight: 700;
+        color: #F6F6F6;
+       position: relative;
+     }
+     .service h2::after{
+        content: "Don't be busy, be productive";
+        font-size: 0.2em;
+        position: absolute;
+        bottom: 5px;
+        right: 500px;
+        top: 80px;
+        color: #2C4755;
+        font-weight: 300;
+     }
+     /* partie 3 */
+     .kbira{
+      display: inline-block;
+        background-color: indigo;
+        width: 64vw;
+        height: 500px;
+        float: left;
+     }
+     .twila1 {
+   display: inline-block;
+    background-color: rgb(255, 0, 179);
+    margin-left: 15px;
+    height: 500px;
+ }
+ .icone{
+   float: left;
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: #10CAB7;
+   
+ }
+ .article{
+ float: left;
+ width: 250px;
+ }
+ .case1, .case2, .case3, .case4  {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+ }
+ 
+ .article h3{
+    color: #2C4755;
+ }
+ .article p{
+    font-weight: 300;
+    color: #2C4755;
+    margin-top: 10px;
+ }
+ .twila2{
+   display: inline-block;
+   background-color: green;
+   margin-left: 15px;
+   height: 500px;
+   width: 500px;
+ }
+ /* partie 3/ tswira dial jbel */
+ .twila3{
+   display: inline-block;
+   background-color: green;
+  
+   height: 500px;
+   width: 320px;
+ }
+ .img2{
+   width: 270px;
+   height: 300px;
+   margin: 40px 0 0 20px;
+
+ }
+ 
+ .col1, .col2{
+   display: inline-block; 
+ }
+ .col2{
+   position: relative;
+   width: 400px;
+   height: 400px;
+   float: right;
+ }
+
+ .sub_col1, .sub_col2{
+   display: inline-block;
+ }
+ .col2::after{
+   position: absolute;
+   content: '';
+   width:120px;
+   height: 100%;
+   top: 0;
+   right: 50px;
+   background-color: #2C4755;
+   z-index: -1;
+ }
+ .col1{
+  padding-left: 120px;
+ }
+ .portfolio{
+  text-align: center;
+}
+.portfolio h2{
+  font-size: 6.5em;
+  font-weight: 700;
+  color: #F6F6F6;
+ position: relative;
+}
+.portfolio h2::after{
+  content: "If you do it right, it will last forever";
+  font-size: 0.2em;
+  position: absolute;
+  bottom: 5px;
+  right: 500px;
+  top: 80px;
+  color: #2C4755;
+  font-weight: 300;
+}
+.projets{
+  
+  background-color: #FAFAFA;
+  text-align: center;
+}
+.sub_port{
+  margin-top: 70px;
+  display: inline-block;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 330px;
+  height: 400px;
+  text-align: justify;
+  margin: 70px 20px; 
+  overflow: hidden;
+ 
+}
+.sub_port img{
+  height: 250px;
+  width: 330px;
+  transition: transform .5s ease-in;
+}
+.sub_port h4,p{
+  padding: 15px ;
+}
+.sub_port img:hover{
+  transform: scale(1.1);
+}
+.projets button{
+ margin-left: 50px;
+  width: 120px;
+  height: 50px;
+  font-weight: 700; 
+  background-color: white;
+  border-radius: 3px ;
+
+}
+.projets button:hover{
+background-color: #2C4755;
+color: #11CAB7;
+}
+.divright{
+  height: 400px;
+  width: 630px;
+ display: inline-block;
+ margin-left: 50px;
+}
+.divright :nth-child(1){
+  font-weight: 700;
+  margin-top: 70px;
+  font-size: 18px;
+}
+.divright hr{
+  width: 200px;
+  border: 2px solid #10CAB7;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.divleft{
+  margin-left: 50px;
+  width: 500px;
+  height: 400px;
+  position: relative;
+  float: left;
+}
+.divleft::before{
+  position: absolute;
+  content: "";
+  width: 110px;
+  height: 100%;
+  background-color: #EBECED;
+  z-index: -1;
+}
+.divleft img{
+  margin: 60px;
+}
+.divleft::after{
+  position: absolute;
+  content: "";
+  right: 125px;
+  width: 110px;
+  height: 80%;
+  background-color: #10CAB7;
+  top: 20px;
+  z-index: -1;
+}
+.div-left::after{
+  position: absolute;
+  content: "";
+  right: 125px;
+  width: 110px;
+  height: 20%;
+  right: 15px;
+  top: 260px;
+  background-color: #10CAB7;
+  z-index: -1;
+}
+.foot{
+  text-align: center;
+}
+.foot h2{
+  font-size: 6.5em;
+  font-weight: 700;
+  color: #F6F6F6;
+ position: relative;
+}
+.foot h2::after{
+  content: "I was born to create";
+  font-size: 0.2em;
+  position: absolute;
+  bottom: 5px;
+  right: 500px;
+  top: 80px;
+  color: #2C4755;
+  font-weight: 300;
+}
+.email p{
+  color: #2C4755;
+  font-size: 45px;
+  font-weight: 700;
+text-align: justify;
+margin-left:  60px;
+}
+.email h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: #11CAB7;
+  text-align: justify;
+  margin-left: 100px;
+}
+.find{
+  text-align: start;
+  /* margin-left: 60px; */
+}
